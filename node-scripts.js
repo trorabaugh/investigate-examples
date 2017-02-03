@@ -50,7 +50,7 @@ request({
 
 request({
   method: 'GET',
-  url: 'https://investigate.api.opendns.com/domains/categories',
+  url: 'https://investigate.api.opendns.com/domains/categories/',
   headers: {
     'Authorization': 'Bearer ' + token
   }
