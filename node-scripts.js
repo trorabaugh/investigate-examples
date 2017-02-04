@@ -60,6 +60,10 @@ request({
 
 
 // domains/score
+/* DEPRECATED 
+
+This endpoint has been deprecated and replaced by the Domain Status and Categorization endpoint above. 
+Please use the Domain Status endpoint and update any API clients as quickly as possible.
 
 request({
   method: 'GET',
@@ -70,7 +74,7 @@ request({
 }, function (error, response, body) {
   console.log('domains/score:', body);
 });
-
+*/
 
 // domains/score (POST)
 
