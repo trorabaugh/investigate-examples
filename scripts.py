@@ -60,7 +60,12 @@ response_body = urlopen(request).read()
 print "domains/categories: " + response_body
 
 
+
 # domains/score
+
+```
+This endpoint has been deprecated and replaced by the Domain Status and Categorization endpoint above. 
+Please use the Domain Status endpoint and update any API clients as quickly as possible.
 
 headers = {
   'Authorization': 'Bearer ' + token
@@ -70,8 +75,14 @@ request = Request('https://investigate.api.opendns.com/domains/score/example.com
 response_body = urlopen(request).read()
 print "domains/score: " + response_body
 
+````
+
 
 # domains/score (POST)
+
+```
+This endpoint has been deprecated and replaced by the Domain Status and Categorization endpoint above. 
+Please use the Domain Status endpoint and update any API clients as quickly as possible.
 
 values = """
   [
@@ -89,6 +100,7 @@ request = Request('https://investigate.api.opendns.com/domains/score/', data=val
 response_body = urlopen(request).read()
 print "domains/score(POST): " + response_body
 
+```
 
 # recommendations/name
 
